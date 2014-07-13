@@ -1,10 +1,10 @@
 {
   "name": "alexa-traffic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CLI for querying website traffics using data from alexa.cn",
   "main": "index.js",
   "bin": {
-    "traffic": "./index.js",
+    "traffic": "./cli.js",
     "casperjs": "./node_modules/casperjs/bin/casperjs"
   },
   "dependencies": {
