@@ -1,6 +1,6 @@
 {
   "name": "alexa-traffic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI for querying website traffics using data from alexa.cn",
   "main": "index.js",
   "bin": {
