@@ -1,0 +1,35 @@
+{
+  "name": "alexa-traffic",
+  "version": "0.0.0",
+  "description": "CLI for querying website traffics using data from alexa.cn",
+  "main": "index.js",
+  "bin": {
+    "traffic": "./index.js",
+    "casperjs": "./node_modules/casperjs/bin/casperjs"
+  },
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "casperjs": "^1.1.0-beta3",
+    "numeral": "^1.5.3",
+    "path": "^0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "casperjs",
+    "traffic",
+    "alexa"
+  ],
+  "author": "Garry Yao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garryyao/casperjs-alexa-traffic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garryyao/casperjs-alexa-traffic/issues"
+  },
+  "homepage": "https://github.com/garryyao/casperjs-alexa-traffic"
+}
