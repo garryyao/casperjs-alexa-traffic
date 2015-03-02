@@ -5,11 +5,13 @@
   "main": "index.js",
   "bin": {
     "traffic": "./cli.js",
-    "casperjs": "./node_modules/casperjs/bin/casperjs"
+    "casperjs": "./node_modules/casperjs/bin/casperjs",
+    "phantomjs": "./node_modules/phantomjs/bin/phantomjs"
   },
   "dependencies": {
     "jquery": "^2.1.1",
     "casperjs": "^1.1.0-beta3",
+    "phantomjs": "^1",
     "numeral": "^1.5.3",
     "path": "^0.4.9"
   },
