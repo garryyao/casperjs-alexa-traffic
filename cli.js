@@ -9,13 +9,14 @@ var numeral = require('numeral');
 
 var fs = require('fs');
 var path = require('path');
-var jquery_file = path.resolve(fs.workingDirectory, 'node_modules/jquery/dist/jquery.min.js');
 
 var casper = require('casper').create({
-  clientScripts: [jquery_file]
+  clientScripts: [
+    'node_modules/jquery/dist/jquery.min.js'
+  ]
 });
 
-console.log("querying for traffic of...", site)
+console.log("querying for traffic of...", site);
 
 // load the website page
 casper.start(query, function onPageLoad(status) {
